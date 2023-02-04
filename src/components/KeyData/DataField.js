@@ -1,8 +1,8 @@
 const DataField = ({ data, label }) => {
     return (
         <div className="data-field">
-            <p>{label}</p>
-            <p>{data}</p>
+            <p className="label">{label}</p>
+            <p className="data">{data}</p>
         </div>
     );
 }
